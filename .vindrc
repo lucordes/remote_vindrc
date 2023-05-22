@@ -1,0 +1,21 @@
+set initmode = i
+set easyclick_bgcolor=E67E22
+set easyclick_fontcolor=34495E
+set easyclick_colordecay=150
+set easyclick_fontname=Consolas
+set easyclick_fontsize=20
+set easyclick_fontweight=600
+
+imap <f21> <win-r>{"C:\Program Files\Double Commander\doublecmd.exe"}<cr>
+imap <Win-e> <to_command>execute C:\Program Files\Double Commander\doublecmd.exe<cr>
+inoremap <f13> <easy_click_left>
+inoremap <f14> <easy_click_right>
+
+
+
+
+
+
+
+
+
