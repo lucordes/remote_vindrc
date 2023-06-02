@@ -12,3 +12,11 @@ inoremap <lalt-lctrl-o> <easy_click_right>
 inoremap <ctrl-[> <hotkey_copy>
 inoremap <ctrl-]> <hotkey_copy>
 set hintkeys = arstneio
+
+inoremap <lshift-rwin> <gridmove><click_left>  " move and click
+set gridmove_size=20x10   " 8x12 matrix
+set gridmove_bgcolor=323232
+set gridmove_fontcolor=c8c8c8
+set gridmove_fontsize=14
+set gridmove_fontweight=500
+set gridmove_fontname=Arial
