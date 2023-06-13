@@ -8,7 +8,7 @@ set easyclick_fontweight=100
 
 imap <Win-e> <to_command>execute C:\Program Files\Double Commander\doublecmd.exe<cr>
 inoremap <f24> <easy_click_left>
-inoremap <f23> <easy_click_right>ü
+inoremap <f23> <easy_click_right>
 inoremap <ctrl-[> <hotkey_copy>
 inoremap <ctrl-]> <hotkey_copy>
 set hintkeys = arstneio
