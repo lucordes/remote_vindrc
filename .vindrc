@@ -1,21 +1,13 @@
 set initmode = i
 set easyclick_bgcolor=FFFFFF
 set easyclick_fontcolor=000000
-set easyclick_colordecay=150
-set easyclick_fontname=Consolas
-set easyclick_fontsize=16
-set easyclick_fontweight=100
+set easyclick_colordecay=1000
+set easyclick_fontname=Arial
+set easyclick_fontsize=14
+set easyclick_fontweight=1000
 
-inoremap <f23> <easy_click_left>
-inoremap <f24> <easy_click_right>
+inoremap <f23> <easyclick_all><click_left><space>
+inoremap <f24> <easyclick_all><click_right><space>
 inoremap <ctrl-[> <hotkey_copy>
 inoremap <ctrl-]> <hotkey_copy>
 set hintkeys = arstneio
-
-inoremap <lshift-rwin> <gridmove><click_left>  " move and click
-set gridmove_size=16x10   " 8x12 matrix
-set gridmove_bgcolor=323232
-set gridmove_fontcolor=c8c8c8
-set gridmove_fontsize=14
-set gridmove_fontweight=500
-set gridmove_fontname=Arial
